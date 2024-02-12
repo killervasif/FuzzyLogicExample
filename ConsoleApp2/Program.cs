@@ -7,6 +7,7 @@ class FuzzyLogicCarSelection
     static double FuzzyLogic(double fuelEfficiency, double safety, double cost)
     {
         // Qeyri-selis qaydalar (numayis ucun sade ortalama)
+        //osduraq
         double rule1 = Math.Min(fuelEfficiency, Math.Min(safety, cost));
         double rule2 = Math.Min(fuelEfficiency, safety);
         double rule3 = Math.Min(safety, cost);
